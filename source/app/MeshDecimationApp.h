@@ -44,7 +44,7 @@ private:
     void guiShadingSelection();
     void guiVertexCountSlider();
     void guiShowStats();
-    void MeshDecimationApp::guiShowFPS() const;
+    void guiShowFPS() const;
 
     void updateModelRotation();
     glm::vec3 computeArcballVector(glm::vec2 pos) const;
